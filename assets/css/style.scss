@@ -348,6 +348,10 @@ footer {
     margin-bottom: 0 !important;
     color: #fff;
     letter-spacing: 0.2rem;
+    @media (max-width: 576px) {
+      font-size: 0.7rem;
+      letter-spacing: 0.1rem;
+    }
 
     a {
       color: #fff;
